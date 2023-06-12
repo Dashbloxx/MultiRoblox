@@ -8,7 +8,7 @@ HWND g_textbox;
 
 int main()
 {
-	CreateMutex(0, 1, L"ROBLOX_singletonMutex");
+	CreateMutex(0, 1, L"ROBLOX_singletonEvent");
 
 	HINSTANCE hInstance = GetModuleHandle(NULL);
 
